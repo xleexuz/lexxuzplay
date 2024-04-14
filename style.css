@@ -1,0 +1,132 @@
+* {
+     margin:0;
+     text-decoration:none;
+     font-family: 'Poppins', sans-serif;
+ }
+body {
+    background:#935116;
+}
+header{
+    color: black;
+    text-align: center;
+    background: #FAE5D3 ;
+    min-height: 80px;
+    align-items: center;
+    justify-content:center;
+}
+nav{
+    justify-content:center;
+    padding: 10px 0px;
+}
+nav a {
+    font-weight: 600;
+    padding: 15px;
+    color: black;
+}
+nav a:hover {
+    color: #935116;
+}
+.Bienvenida {
+    display:inline-block ;
+    text-align: center;
+    height: 697px;
+    width: 100%;
+    color:#FAE5D3;
+}
+.Peliculas {
+    display:inline-block ;
+    text-align: center;
+    background: #FAE5D3 ;
+    height: 777px;
+    width: 100%;
+}
+.series {
+    display:inline-block ;
+    text-align: center;
+    height: 777px;
+    width: 100%;
+}
+.Contactos {
+    display:inline-block ;
+    text-align: center;
+    background: #FAE5D3;
+    height: 777px;
+    width: 100%;
+}
+.contenedor {
+    width: 240px;
+    max-width: 370px;
+    margin:auto;
+    padding:15px;
+    height:390px;
+    overflow: auto;
+    border-radius: 5px;
+}
+.contenedor::-webkit-scrollbar{
+    width:10px;
+    background: #efefef;
+}
+.contenedor::-webkit-scrollbar-thumb{
+    background: black;
+    border-radius: 5px;
+}
+.leex {
+    margin-top:100px ;
+}
+.leeex {
+    margin-top:70px;
+}
+img {
+    height:170px;
+    border-radius:50%;
+    margin-top: 20px;
+}
+.n1 {
+    text-align: center;
+    margin-top:100px ;
+    margin-bottom:50px;
+}
+button{
+  margin-top:10px;
+  background: #FFD691 ;
+  color: #233A66;
+  border:none;
+  position:relative ;
+  height:50px;
+  width:230px;
+  font-size:23px;
+  padding:5px;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+button:hover{
+  background: transparent ;
+  color: white;
+}
+button:before,button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: white;
+  transition:400ms ease all;
+}
+button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+button:hover:before,button:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+footer{
+  padding:20px;
+  color:#ffffff;
+  background-color:#e8491d;
+  text-align: center;
+}
